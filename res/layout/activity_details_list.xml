@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:text="UPDATE"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/donate_blood"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:text="DONATE BLOOD"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/availability_blood"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:text="AVAILABILITY OF BLOOD"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/request_blood"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:text="REQUEST FOR BLOOD"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/contact_us"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:text="CONTACT US"
+        android:textStyle="bold" />
+    
+
+</LinearLayout>

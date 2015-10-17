@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bag">
+
+    <Button
+        android:id="@+id/find_donor"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:text="Find Donor Centre"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/view_donor"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="View All Donor Centre"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
