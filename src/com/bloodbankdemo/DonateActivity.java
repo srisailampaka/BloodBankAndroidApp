@@ -26,7 +26,7 @@ public class DonateActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(DonateActivity.this,CheckForAvailabilityActivity.class);
+				Intent intent = new Intent(DonateActivity.this,FindAllBankActivity.class);
 				startActivity(intent);
 				
 			}
@@ -37,7 +37,7 @@ viewAllButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(DonateActivity.this, CheckForAvailabilityActivity.class);
+				Intent intent = new Intent(DonateActivity.this, AllBloodBankActivity.class);
 				startActivity(intent);
 
 			}

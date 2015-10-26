@@ -15,7 +15,7 @@
         android:layout_height="40dp"
         android:layout_weight="0.6"
         android:background="@drawable/group_top_black"
-        android:entries="@array/gender"
+        android:entries="@array/blood_group"
         android:padding="5dp" />
 
     <Button
@@ -36,7 +36,11 @@
         android:id="@+id/check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="TextView" />
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="" />
 
 </LinearLayout>

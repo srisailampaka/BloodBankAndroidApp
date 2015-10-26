@@ -9,7 +9,7 @@ public class ContactUsActivity extends Activity {
 		// TODO Auto-generated method stub
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_contactforblood);
+		setContentView(R.layout.activity_contactus);
 	}
 
 }

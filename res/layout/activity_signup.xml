@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Signin"
+            android:text="Register"
             android:textColor="#B8B8B8"
             android:textSize="25sp" />
     </LinearLayout>
@@ -345,7 +345,7 @@
             android:layout_width="115dp"
             android:layout_height="match_parent"
             android:background="#B8B8B8"
-            android:text="SignIn"
+            android:text="Register"
             android:textStyle="bold"
             android:textColor="#5A3584"
             android:textSize="18sp" />

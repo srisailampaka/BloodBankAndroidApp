@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.35"
-                    android:text="Siddu"
+                    android:text=""
                     android:textColor="@android:color/white"
                     android:ems="10"
                     android:padding="5dp" />
@@ -82,7 +82,7 @@
                     android:layout_weight="0.35"
                     android:ems="10"
                     android:textColor="@android:color/white"
-                    android:text="Kumar"
+                    android:text=""
                     android:padding="5dp" />
             </LinearLayout>
 
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.35"
                     android:ems="10"
-                    android:text="siddukumar"
+                    android:text=""
                    android:textColor="@android:color/white"
                     android:padding="5dp" />
             </LinearLayout>
@@ -156,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.35"
                     android:ems="10"
-                    android:text="Male"
+                    android:text=""
                    android:textColor="@android:color/white"
                     android:padding="5dp" />
 
@@ -182,7 +182,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.35"
-                    android:text="04-02-1983"
+                    android:text=""
                     android:textColor="@android:color/white"
                     android:ems="10"
                     android:padding="5dp" />
@@ -207,7 +207,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/white"
-                    android:text="A+"
+                    android:text=""
                     android:layout_weight="0.35"
                     android:padding="5dp" />
             </LinearLayout>

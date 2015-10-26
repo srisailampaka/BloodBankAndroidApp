@@ -2,32 +2,53 @@
     package="com.bloodbankdemo"
     android:versionCode="1"
     android:versionName="1.0" >
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/images"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.bloodbankdemo.LoginActivity"
+        <activity
+            android:name="com.bloodbankdemo.LoginActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppBaseTheme">
-            <intent-filter >
-                <action android:name="android.intent.action.MAIN"></action>
-                <category android:name="android.intent.category.LAUNCHER"/>
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.AllBloodBankActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.FindAllBankActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.FindBloodBankActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.SignupActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.bloodbankdemo.SignupActivity"></activity>
-        <activity android:name="com.bloodbankdemo.RequestForBloodActivity"></activity>
-        <activity android:name="com.bloodbankdemo.BloodRequest"></activity>
-        <activity android:name="com.bloodbankdemo.DetailsListActivity"></activity>
-                    <activity android:name="com.bloodbankdemo.DonateActivity"></activity>
-         <activity android:name="com.bloodbankdemo.UpdateProfileActivity"></activity>
-        <activity android:name="com.bloodbankdemo.CheckForAvailabilityActivity"></activity>
-        <activity android:name="com.bloodbankdemo.ContactUsActivity"></activity>
+        <activity android:name="com.bloodbankdemo.RequestForBloodActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.BloodRequest" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.DetailsListActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.DonateActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.UpdateProfileActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.CheckForAvailabilityActivity" >
+        </activity>
+        <activity android:name="com.bloodbankdemo.ContactUsActivity" >
+        </activity>
     </application>
 
 </manifest>

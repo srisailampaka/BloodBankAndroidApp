@@ -8,7 +8,9 @@ import com.loopj.android.http.RequestParams;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -32,11 +34,13 @@ private EditText etState;
 private EditText etCountry;
 private EditText etContact;
 private ProgressDialog progressDialog;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_signup);
+		
 		signin = (Button) findViewById(R.id.signin_signin);
 		etFname = (EditText) findViewById(R.id.signup_fname);
 		etlname = (EditText) findViewById(R.id.signup_lname);
@@ -70,12 +74,12 @@ private ProgressDialog progressDialog;
 					params.put("password", etPassword.getText().toString());
 					params.put("sex", etSex.getSelectedItem().toString());
 					params.put("bloodgroup",etBloodgroup.getSelectedItem().toString());
-					params.put("dateofbirth", etDateofbirth.getText().toString());
+					params.put("dob", etDateofbirth.getText().toString());
 					params.put("address", etAddress.getText().toString());
 					params.put("city",etCity.getText().toString());
 					params.put("state",etState.getText().toString());
 					params.put("country", etCountry.getText().toString());
-					params.put("contact", etContact.getText().toString());
+					params.put("phno", etContact.getText().toString());
 
 				LoopJHttpClient.post(url, params, new JsonHttpResponseHandler() {
 					@Override
